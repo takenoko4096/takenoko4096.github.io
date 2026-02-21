@@ -6,7 +6,7 @@ const output = await bun.build({
     entrypoints: [
         "./src/index.ts"
     ],
-    outdir: "scripts",
+    outdir: "./dist",
     target: "node",
     format: "esm",
     external: []
