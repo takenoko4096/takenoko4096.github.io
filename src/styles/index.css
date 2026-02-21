@@ -50,7 +50,7 @@ header {
     overflow: hidden;
     transition: max-height 0.3s ease;
 
-    box-shadow: 0 4px 0 #111111;
+    box-shadow: 0 8px 0 #1a1919;
 }
 
 #dropdown a {
@@ -62,7 +62,7 @@ header {
     text-decoration: none;
 
     border-top: 1px solid #222222;
-    box-shadow: 0 4px 0 #111111;
+    box-shadow: 0 8px 0 #1a1919;
 }
 
 #dropdown a:hover {
