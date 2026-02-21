@@ -1,89 +1,29 @@
-body {
-    background-color: #333333;
-    padding-top: 70px;
-}
+body::before {
+    background-image: url("../assets/perlin_noise.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-p, h1, h2, h3, h4, h5, h6 {
-    color: white;
-    width: 100%;
-}
-
-header {
+    content: "";
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    background: linear-gradient(to right, #359467, #222222);
-    display: flex;
-    align-items: center;
+    inset: 0;
+
+    opacity: 0.2;
+    z-index: -1;
 }
 
-.header-text {
-    margin: 0;
-    margin-left: 20px;
-}
-
-#header-button {
-    margin-right: 20px;
-    background: none;
-    border: none;
+li {
     color: white;
-    font-size: 50px;
-}
-
-#header-button:hover {
-    background: #333333;
-}
-
-#dropdown {
-    position: fixed;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    background-color: #222222;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-
-    box-shadow: 0 8px 0 #1a1919;
-}
-
-#dropdown a {
-    display: block;
-    width: 100%;
-    text-align: center;
     padding: 15px 20px;
-    color: white;
-    text-decoration: none;
-
-    border-top: 1px solid #222222;
-    box-shadow: 0 8px 0 #1a1919;
 }
 
-#dropdown a:hover {
-    background-color: #303030;
+#quote-self-icon {
+    width: 48px;
+    height: 48px;
+    margin-left: 16px;
+    margin-bottom: -10px;
 }
 
-footer {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    background-color: #303030;
-    display: flex;
-    align-items: center;
-    text-align: center;
+#quote {
+    font-size: 30px;
 }
-
-footer p {
-    margin: 0;
-    margin-left: 20px;
-    color: white;
-}
-
-/*update test*/

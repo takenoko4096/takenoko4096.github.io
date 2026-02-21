@@ -4,12 +4,13 @@ console.log("build start");
 
 const output = await bun.build({
     entrypoints: [
-        "./src/index.ts"
+        "./src/main.ts"
     ],
     outdir: "./dist",
     target: "node",
     format: "esm",
-    external: []
+    external: [],
+    minify: true
 });
 
 console.log("build finished: " + (output.success ? "successful" : "failure"));
