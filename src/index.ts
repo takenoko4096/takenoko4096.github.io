@@ -1,7 +1,9 @@
 enum ContactType {
     X = "x",
     GitHub = "github",
-    Discord = "discord"
+    Discord = "discord",
+    CraftersColony = "crafters_colony",
+    Note = "note"
 }
 
 interface Contact {

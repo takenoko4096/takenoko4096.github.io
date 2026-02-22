@@ -17,5 +17,15 @@
     {
         "type": "discord",
         "text": "takenoko_4096"
+    },
+    {
+        "type": "crafters_colony",
+        "text": "たけのこ",
+        "link": "https://minecraft-mcworld.com/author/66471ac930204c3be2c2a20f7f371370d7e2a715/"
+    },
+    {
+        "type": "note",
+        "text": "takenokoii",
+        "link": "https://note.com/takenokoii"
     }
 ]

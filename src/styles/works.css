@@ -13,3 +13,7 @@
 li {
     color: #4affab;
 }
+
+body::before {
+    background-image: url("../assets/castle.png");
+}

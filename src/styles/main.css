@@ -11,6 +11,19 @@ body {
     padding-top: 70px;
 }
 
+body::before {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: fixed;
+    content: "";
+    inset: 0;
+
+    opacity: 0.25;
+    z-index: -1;
+}
+
 p, h1, h2, h3, h4, h5, h6 {
     color: white;
     width: 100%;
