@@ -4,7 +4,9 @@ console.log("build start");
 
 const output = await bun.build({
     entrypoints: [
-        "./src/main.ts"
+        "./src/main.ts",
+        "./src/index.ts",
+        "./src/works.ts"
     ],
     outdir: "./dist",
     target: "node",

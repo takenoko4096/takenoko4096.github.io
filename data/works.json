@@ -1,0 +1,41 @@
+[
+    {
+        "name": "BlockPropertyAccessor",
+        "type": "minecraft",
+        "description": [
+            "実行位置にあるブロックID及びブロック状態を取得できるデータパック",
+            "...と、それを自動で生成するPaperプラグイン"
+        ]
+    },
+    {
+        "name": "Impulser",
+        "type": "minecraft",
+        "description": [
+            "enchantment (apply_impulse) によるシンプルなプレイヤー Motion 操作ライブラリデータパック"
+        ]
+    },
+    {
+        "name": "TypeSentry",
+        "type": "ts",
+        "description": [
+            "型チェックをするための単一のオブジェクトを提供する自分用ライブラリ"
+        ]
+    },
+    {
+        "name": "DSLBrigadier",
+        "type": "kt",
+        "description": [
+            "brigadier のラッパー (Kotlin) DSL"
+        ]
+    },
+    {
+        "name": "ScoreToXPBar",
+        "type": "minecraft",
+        "description": [
+            "プレイヤーの経験値バーをscoreboardから操作可能にするアドオン"
+        ],
+        "additional_links": {
+            "クラフターズコロニー": "https://minecraft-mcworld.com/164074/"
+        }
+    }
+]

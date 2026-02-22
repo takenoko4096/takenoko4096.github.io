@@ -1,7 +1,7 @@
 console.log("Hello, World!");
 
 async function getRandomQuote(): Promise<string> {
-    const res = await fetch("src/quotes.json");
+    const res = await fetch("data/quotes.json");
     const quotes = await res.json() as string[];
     const index = Math.floor(Math.random() * quotes.length);
     return quotes[index]!;

@@ -17,6 +17,16 @@ li {
     padding: 15px 20px;
 }
 
+.contact-link {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+a.contact-link {
+    text-decoration: underline;
+}
+
 #quote-self-icon {
     width: 48px;
     height: 48px;
