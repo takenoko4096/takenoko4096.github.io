@@ -33,7 +33,7 @@ function workToElement(work: Work): HTMLDivElement {
     const ul = document.createElement("ul");
     const github = document.createElement("li");
     const a = document.createElement("a");
-    a.href = "https://github.com/takenoko0496/" + work.name;
+    a.href = "https://github.com/takenoko4096/" + work.name;
     a.textContent = "GitHub リポジトリ";
     a.classList.add("work-link");
     github.appendChild(a);

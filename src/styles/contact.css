@@ -1,0 +1,14 @@
+li {
+    color: white;
+    padding: 15px 20px;
+}
+
+.contact-link {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+a.contact-link {
+    text-decoration: underline;
+}

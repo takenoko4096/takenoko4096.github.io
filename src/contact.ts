@@ -3,7 +3,8 @@ enum ContactType {
     GitHub = "github",
     Discord = "discord",
     CraftersColony = "crafters_colony",
-    Note = "note"
+    Note = "note",
+    Minecraft = "minecraft"
 }
 
 interface Contact {
